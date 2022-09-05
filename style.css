@@ -1,0 +1,92 @@
+body {
+    background-color: aqua;
+}
+.ceritasingkat h1 { 
+    font-family: 'Courier New', Courier, monospace;
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin: 50px 20px 10px 10px;
+    padding: 20px 10px 0px 20px;
+    height: 30px 50%;
+}
+.ceritasingkat h2 {
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ceritasingkat img {
+    width: 300px;
+}
+.skill h1 {
+    font-family: 'Courier New', Courier, monospace;
+    border: 7px solid red;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.skill h2 {
+    background-color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    font-size: 15px;
+}
+.skill {
+    background-color: red;
+}
+.skill h3 {
+    background-color: aqua;
+}
+.skill h3 ul {
+    font-family: 'Courier New', Courier, monospace;
+}
+.about-me h3 .fb:hover {
+    border: 2px solid red;
+    text-decoration: none;
+    color: brown;
+}
+.about-me h3 .ig:active{
+    background-color: burlywood;
+    text-decoration: none;
+}
+.about-me h3 .fb{
+    text-decoration: none;
+    color: black;
+}
+.parent li:first-child {
+    border: 10px solid white;
+}
+.parent li:nth-child(6) {
+    background-color: darkorchid;
+}
+.parent li:last-child {
+    color: red;
+}
+.ige {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 300px;
+    z-index: 500px;
+    size: 400px;
+}
+nav {
+    position: fixed;
+        width: 100%;
+        top: 0;
+        background-color: pink;
+        font-size: 25px;
+        height: 50px;
+        padding-top: 20px;
+} 
+nav li {
+        display: inline-block;
+        margin-right: 30px;
+         
+    }
+nav li a {
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: white;
+}
